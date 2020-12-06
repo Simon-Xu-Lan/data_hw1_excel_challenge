@@ -16,4 +16,8 @@ Use excel to analyze kickstarter projects
   - Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
 
 
-**Note
+# Note
+- Convert Unix timestamps into excel format
+  - https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html
+  - "=(((A1/60)/60)/24)+DATE(1970,1,1)"
+  - ![example]https://cdn.extendoffice.com/images/stories/doc-excel/convert-date-unixtimestamp/doc-convert-timestamp-4.png
